@@ -1,0 +1,14 @@
+@baseUrl = https://httpbin.org
+
+### Get
+# @name get
+GET {{baseUrl}}/get
+Accept: application/json
+
+### Post JSON
+POST {{baseUrl}}/post
+Content-Type: application/json
+
+{
+  "message": "hello, httpYac"
+}
